@@ -1,0 +1,144 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "student@ifba.edu.br",
+      "name": "Matheus",
+      "course": "Engenharia de Software",
+      "enrollment": "2023.1.12345",
+      "joinDate": "15 de janeiro de 2024"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Como me matricular em um curso?",
+      "body": "Você pode se matricular através do **portal acadêmico** utilizando suas credenciais institucionais.\n\n## Passos:\n1. Acesse o portal\n2. Selecione o curso desejado\n3. Clique em matricular\n4. Confirme seus dados\n5. Finalize a matrícula",
+      "category": "admissao",
+      "views": 150,
+      "createdAt": "2024-01-15",
+      "status": "solved",
+      "answerCount": 2
+    },
+    {
+      "id": 2,
+      "question": "Qual é o horário de funcionamento da biblioteca?",
+      "body": "A biblioteca funciona nos seguintes horários:\n\n- **Segunda a Sexta**: 7:00 até 19:00\n- **Sábado**: 8:00 até 13:00\n- **Domingo**: Fechado\n\nPara mais informações, contate a biblioteca diretamente.",
+      "category": "instalacoes",
+      "views": 89,
+      "createdAt": "2024-01-10",
+      "status": "answered",
+      "answerCount": 1
+    },
+    {
+      "id": 3,
+      "question": "Como funciona o sistema de bolsas?",
+      "body": "Existem várias modalidades de bolsas disponíveis na IFBA:\n\n## Tipos de Bolsas:\n- **Bolsa Integral**: Cobre 100% do curso\n- **Bolsa Parcial**: Cobre 50% do curso\n- **Bolsa de Mérito**: Para alunos com excelente desempenho\n\nConsulte o edital vigente no site da instituição para mais detalhes.",
+      "category": "financeiro",
+      "views": 234,
+      "createdAt": "2024-01-05",
+      "status": "solved",
+      "answerCount": 3
+    },
+    {
+      "id": 4,
+      "question": "Onde posso acessar as notas das provas?",
+      "body": "As notas podem ser acessadas pelo portal do aluno na seção 'Minhas Notas'.",
+      "category": "academico",
+      "views": 120,
+      "createdAt": "2024-01-20",
+      "status": "unanswered",
+      "answerCount": 0
+    },
+    {
+      "id": 5,
+      "question": "Como solicitar declaração de matrícula?",
+      "body": "Você pode solicitar através da secretaria ou pelo portal online na seção 'Documentos'.",
+      "category": "admissao",
+      "views": 95,
+      "createdAt": "2024-01-18",
+      "status": "answered",
+      "answerCount": 1
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "questionId": 1,
+      "content": "Você pode se matricular através do portal acadêmico utilizando suas credenciais institucionais. Basta acessar o menu 'Matrícula' e seguir o passo a passo.",
+      "userName": "Maria Silva",
+      "userStatus": "Professor",
+      "createdAt": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "questionId": 1,
+      "content": "Complementando a resposta anterior: certifique-se de que todos os seus documentos estão atualizados no sistema antes de iniciar o processo de matrícula.",
+      "userName": "João Santos",
+      "userStatus": "Coordenador",
+      "createdAt": "2024-01-16"
+    },
+    {
+      "id": 3,
+      "questionId": 2,
+      "content": "A biblioteca funciona de segunda a sexta de 7:00 até 19:00 e aos sábados de 8:00 até 13:00. Domingos e feriados permanece fechada.",
+      "userName": "Ana Costa",
+      "userStatus": "Bibliotecária",
+      "createdAt": "2024-01-10"
+    },
+    {
+      "id": 4,
+      "questionId": 3,
+      "content": "Existem várias modalidades de bolsas disponíveis: Bolsa Integral, Bolsa Parcial e Bolsa de Mérito Acadêmico. Consulte o edital vigente no site da instituição para mais detalhes sobre requisitos e prazos.",
+      "userName": "Carlos Oliveira",
+      "userStatus": "Assistente Social",
+      "createdAt": "2024-01-05"
+    },
+    {
+      "id": 5,
+      "questionId": 3,
+      "content": "Importante: o prazo para inscrição nas bolsas geralmente é divulgado no início de cada semestre. Fique atento ao calendário acadêmico!",
+      "userName": "Fernanda Lima",
+      "userStatus": "Aluno",
+      "createdAt": "2024-01-06"
+    },
+    {
+      "id": 6,
+      "questionId": 3,
+      "content": "Você também pode agendar um atendimento presencial com o setor de assistência estudantil para tirar todas as suas dúvidas sobre o processo.",
+      "userName": "Roberto Mendes",
+      "userStatus": "Professor",
+      "createdAt": "2024-01-07"
+    }
+  ],
+  "searchHistory": [
+    {
+      "id": 1,
+      "userId": 1,
+      "query": "Como faço meu cadastro?",
+      "response": "Você pode se cadastrar no portal acadêmico com seu email institucional.",
+      "date": "15 de dezembro, 10:30",
+      "rating": "helpful"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "query": "Horário da biblioteca",
+      "response": "A biblioteca funciona seg-sex 7h-19h, sábado 8h-13h.",
+      "date": "14 de dezembro, 14:45",
+      "rating": "helpful"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "query": "Sistema de bolsas",
+      "response": "Existem bolsas integral, parcial e de mérito acadêmico disponíveis.",
+      "date": "10 de dezembro, 09:15"
+    }
+  ],
+  "resources": {
+    "portalUrl": "https://portal.ifba.edu.br",
+    "supportEmail": "support@ifba.edu.br",
+    "supportPhone": "(71) 3311-8550"
+  }
+}
